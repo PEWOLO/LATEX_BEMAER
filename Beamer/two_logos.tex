@@ -1,0 +1,33 @@
+\documentclass[12pt,aspectratio=169,t]{beamer}
+\usepackage{pstricks,pgfplots,tikz,amsmath,amssymb,amsfonts,ifthen,graphics,xcolor}
+
+\usetheme{Madrid}
+\definecolor{mycolor}{rgb}{1,0.3,0.2}
+\usecolortheme[named=mycolor]{structure}
+\graphicspath{{/home/james/Desktop/logos/}}
+
+
+
+\title{Multiple Logos dans \LaTeX \hspace{1mm}Beamer}
+
+\author{
+    {\textsc{Haoulomou Pepe}}\\\vspace{1cm}
+    {\color{mycolor}{D1, Kyushu University, Japan}}
+}
+\date{}
+
+
+
+\begin{document}
+
+
+\begin{frame}[plain]
+    \includegraphics[width=2cm,height=2cm]{logo1.jpg}\hspace{3.5cm}
+    \includegraphics[width=2cm,height=2cm]{logo2.png}
+    \hspace{3.5cm}
+    \includegraphics[width=2cm,height=2cm]{logo3.png}
+    \maketitle
+\end{frame}
+
+
+\end{document}
